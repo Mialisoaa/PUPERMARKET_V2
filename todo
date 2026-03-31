@@ -31,6 +31,8 @@ structure et base a utiliser :
      ├── index.php
 
 travail a faire : 
+
+1ere Partie : 
 1. Créer la base de données et les tables, insérer 5 produits et 2 caisses (10 mn) : 
     a. Produit
     b. Caisse
@@ -39,7 +41,36 @@ travail a faire :
 2. Initialiser php flight (5mn) : 
     implenter tout les fichiers necessaire 
 
+2eme Partie :
 3. Créer le template à partir du fichier fourni (25mn)
 
 4. Créer l’écran d’accueil qui permet de choisir le numéro de Caisse (10mn)
     juste un unput 
+
+5. Après validation, on arrive sur la page de saisie des achats et on affiche la
+    caisse choisie sur la partie au-dessus du menu. (20mn)
+
+3eme Partie 
+6. Créer la page de saisie des achats : 
+    -Produit 
+    -quantiter 
+    -valider 
+        . Etape 1 : faire la partie en haut en 1er (30mn) (bare de choix )
+        b. Etape 2 : afficher la partie en bas (20mn) (tableaux d'affichage )
+
+4eme Partie : 
+7.  Rajouter un écran de login, avant la page de choix de la caisse. (15mn)
+8. Rajouter un bouton « clôturer achat » pour finaliser un achat. Donc, on obtient une
+    liste vide pour le prochain achat. Un achat donc correspond à un client. (15mn)
+
+
+5eme Partie : 
+9. Rajouter un écran pour voir
+    a. le montant total des ventes. (10mn)
+    b. le montant total des ventes par article ( 10 mn)
+    c. le montant total des ventes par jour , modifier la date système pour simuler
+    cela (15mn)
+
+10. 
+11. 
+12. 
