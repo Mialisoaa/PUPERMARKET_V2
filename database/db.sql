@@ -36,7 +36,7 @@ INSERT INTO produits (designation, prix, quantite_en_stock) VALUES
 ('Lait', 6000, 50),
 ('Pain', 600, 100),
 ('Oeufs', 700, 200),
-('Beurre', 4500, 40);
+('Beurre', 4500, 40),
 ('Fromage', 8000, 30);
 
 INSERT INTO caisse (nom) VALUES 
