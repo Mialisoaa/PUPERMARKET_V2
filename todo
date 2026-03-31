@@ -1,0 +1,45 @@
+structure et base a utiliser : 
+
+- PHP – flight Php
+- Base Mysql
+- Mise en page flexbox/grid pour le css : 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+- Git
+- Respecter l’ergonomie (Interface facile à utiliser) : 
+
+    Règles :
+    boutons visibles
+    navigation simple
+    texte lisible
+    couleurs cohérentes
+    👉 Objectif : améliorer l’expérience utilisateur
+
+
+- Respecter l’organisation des repertoires : 
+    /project
+     ├── /assets (css, images, js)
+     ├── /views (pages HTML/PHP)
+     ├── /controllers
+     ├── /models
+     ├── index.php
+
+travail a faire : 
+1. Créer la base de données et les tables, insérer 5 produits et 2 caisses (10 mn) : 
+    a. Produit
+    b. Caisse
+    c. Achat
+
+2. Initialiser php flight (5mn) : 
+    implenter tout les fichiers necessaire 
+
+3. Créer le template à partir du fichier fourni (25mn)
+
+4. Créer l’écran d’accueil qui permet de choisir le numéro de Caisse (10mn)
+    juste un unput 
