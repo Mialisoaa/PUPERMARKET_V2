@@ -8,7 +8,7 @@ $caisseId = filter_input(INPUT_GET, 'caisse_id', FILTER_VALIDATE_INT);
 if ($caisseId) {
     try {
         $pdo = new PDO(
-            "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
+            "mysql:host=" . DB_HOST . ";port=" . DB_PORT . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
             DB_USER,
             DB_PASS,
             [

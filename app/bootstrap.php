@@ -4,7 +4,7 @@ require_once __DIR__ . '/config.php';
 
 // Connexion à la base avec PDO
 Flight::register('db', 'PDO', array(
-    "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
+    "mysql:host=" . DB_HOST . ";port=" . DB_PORT . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
     DB_USER,
     DB_PASS,
     array(
